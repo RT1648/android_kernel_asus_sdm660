@@ -136,6 +136,7 @@ all.config
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
-# Script build
-out/
-*.zip
+#
+#Ignoring Android.bp link file
+#
+Android.bp
